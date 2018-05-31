@@ -38,4 +38,3 @@ RUN  cd /tmp \
 	&& cp /usr/local/php/etc/php-fpm.conf.default /usr/local/php/etc/php-fpm.conf \
 	&& cp /usr/local/php/etc/php-fpm.d/www.conf.default /usr/local/php/etc/php-fpm.d/www.conf
 #指定端口
-EXPOSE 9000
